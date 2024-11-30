@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom"
 export const LoginPage = () => {
 
   const navegation = useNavigate();
-
+  console.log(navegation)
   const onLogin = () => {
     navegation("/", {
       replace: true,
