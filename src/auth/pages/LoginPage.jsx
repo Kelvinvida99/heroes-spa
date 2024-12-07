@@ -20,7 +20,7 @@ export const LoginPage = () => {
           className="btn btn-primary"
           onClick={ onLogin }
         >
-          Login
+          Get Login
         </button>
       </div>
     </>
